@@ -1,0 +1,6 @@
+runtime: nodejs14
+service: test-cx-webhook
+env_variables:
+  TWILIO_ACCOUNT_SID: AC53c7a4693278f6bfb68c88bc407f2cd3
+  TWILIO_AUTH_TOKEN: 772239ae9e746cdc7ff250e1c28349f3
+  GOOGLE_APPLICATION_CREDENTIALS: ~/ .key.json
